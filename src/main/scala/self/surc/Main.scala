@@ -29,7 +29,7 @@ import self.surc.implicit_conversions.library.{LibFunction2, RDD}
   * 仅有一个传入参数，函数需编写将 源类型 S 的对像 转换成 目标类型 T 的对象 的操作。
   * 简单来说，就是要实现 implitic S => T
   *
-  * 本例中，将会对隐式转换的执行进行简单的分析。具体分析请查看 implicit_conversions 下各类中的描述。
+  * 本例中，将会对隐式转换的执行进行简单的分析。具体请查看 PairWrapper 类。
   */
 
 object Main {
